@@ -2,10 +2,152 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'COCOGOOSE', sans-serif;
+  letter-spacing: 0.038rem;
 }
 
 :root {
   --black: #272a31;
   --orange: #ec5242;
   --gray: #d3d3d3;
+}
+
+.landing-page {
+  height: 170vw;
+  width: 100vw;
+  background-color: rgba(211, 211, 211, 0.4);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.landing-page::after {
+  content: '';
+  background-image: url(../images/homeBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.landing-page img {
+  width: 4%;
+}
+
+.landing-page p:first-of-type {
+  color: var(--orange, orange);
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+}
+
+.landing-page h1 {
+  color: var(--orange, orange);
+  font-size: 40px;
+  font-weight: 500;
+  background-image: url(../images/headerBackground.jpg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.landing-page p:nth-of-type(2) {
+  border: solid 3px white;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.03rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.landing-page p:nth-of-type(3) {
+  color: var(--black);
+  font-size: 25px;
+}
+
+.landing-page p:nth-of-type(4) {
+  color: var(--black);
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.03rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.main-program {
+  background-image: url(../images/programBackground.jpg);
+  background-size: cover;
+  height: 280vw;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background-color: rgba(211, 211, 211, 0.1);
+  width: 95%;
+  padding: 10px;
+}
+
+.card img {
+  margin-left: 3%;
+}
+
+.card p:first-of-type {
+  color: var(--orange, orange);
+  margin-left: 3%;
+  margin-right: 3%;
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+  width: 30%;
+}
+
+.card p:last-of-type {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  width: 30%;
+}
+
+.main-program button {
+  background-color: var(--orange, orange);
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.white h2 {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title hr {
+  background-color: var(--orange, orange);
+  width: 30%;
+  border: none;
+  height: 2px;
+  margin-top: 12.5%;
 }
