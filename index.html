@@ -12,10 +12,28 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header></header>
-    <nav></nav>
+    <header>
+        <ul class="container">
+            <li><a href="https://www.facebook.com/mohamed.abdelmohsen.9655/"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="https://twitter.com/mohamed20163858"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#home-page">English</a></li>
+            <li><a href="#home-page">My Page</a></li>
+            <li><a href="#home-page">Logout</a></li>
+        </ul>
+    </header>
+    <nav class="container">
+        <a href="#home-page"><img src="images/logo_transparent_2.png" alt="logo icon"></a>
+        <ul>
+            <li><a href="#about-page">About</a></li>
+            <li><a href="#home-page">Program</a></li>
+            <li><a href="#home-page">Join</a></li>
+            <li><a href="#home-page">Sponsor</a></li>
+            <li><a href="#home-page">News</a></li>
+        </ul>
+        <p><a href="#home-page">CE Campaign</a></p>
+    </nav>
     <main>
-        <section class="home">
+        <section class="home" id="home-page">
             <div class="landing-page container">
                 <img src="images/Union.png" alt="menu-icon">
                 <p>"Hello!Future Engineers"</p>
@@ -29,36 +47,52 @@
                     <h2>Main Program</h2>
                     <hr>
                 </div>
-                <div class="card">
-                    <img src="images/lecture.png" alt="lecture icon">
-                    <p>Lecture</p>
-                    <p>Listen to the speakers from our company that work in different fields and aspects</p>
-                </div>
-                <div class="card">
-                    <img src="images/exhibition.png" alt="exhibition icon">
-                    <p>CE Exhibition</p>
-                    <p>Listen to the speakers from our company that work in different fields and aspects</p>
-                </div>
-                <div class="card">
-                    <img src="images/forum.png" alt="forum icon">
-                    <p>Forum</p>
-                    <p>Listen to the speakers from our company that work in different fields and aspects</p>
-                </div>
-                <div class="card">
-                    <img src="images/workshop.png" alt="workshop icon">
-                    <p>Workshop</p>
-                    <p>Listen to the speakers from our company that work in different fields and aspects</p>
-                </div>
-                <div class="card">
-                    <img src="images/ignite.png" alt="ignite icon">
-                    <p>CE Ignite</p>
-                    <p>Listen to the speakers from our company that work in different fields and aspects</p>
+                <div class="cards">
+                    <div class="card">
+                        <img src="images/lecture.png" alt="lecture icon">
+                        <p>Lecture</p>
+                        <p>Listen to the speakers from our company that work in different fields and aspects</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/exhibition.png" alt="exhibition icon">
+                        <p>CE Exhibition</p>
+                        <p>Listen to the speakers from our company that work in different fields and aspects</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/forum.png" alt="forum icon">
+                        <p>Forum</p>
+                        <p>Listen to the speakers from our company that work in different fields and aspects</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/workshop.png" alt="workshop icon">
+                        <p>Workshop</p>
+                        <p>Listen to the speakers from our company that work in different fields and aspects</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/ignite.png" alt="ignite icon">
+                        <p>CE Ignite</p>
+                        <p>Listen to the speakers from our company that work in different fields and aspects</p>
+                    </div>
                 </div>
                 <button type="submit">Join CE Job Fair 2022</button>
+                <a href="index.html">SEE THE WHOLE PROGRAM</a>
             </div>
             <div class="featured-speakers"></div>
+            <div class="partners">
+                <div class="white title">
+                    <h2>Partner</h2>
+                    <hr>
+                </div> 
+                <div class="companies">
+                    <img src="images/nilesat.png" alt="nilesat logo">
+                    <img src="images/thales-removebg-preview.png" alt="thales logo">
+                    <img src="images/valeo-removebg-preview.png" alt="valeo logo">
+                    <img src="images/Mentor_Graphics-removebg-preview.png" alt="mentor graphics logo">
+                    <img src="images/juhayna-logo-removebg-preview.png" alt="juhayna logo">
+                </div>  
+            </div>
         </section>
-        <section class="about">
+        <section class="about" id="about-page">
             <div class="contact-us container">
                 <img src="images/Union.png" alt="menu-icon">
                 <p>"Hello!Future Engineers"</p>
@@ -113,11 +147,12 @@
         </section>
     </main>
     <footer>
-        <img src="images/copyrightLogo-removebg-preview.png" alt="copyright logo">
+        <img src="images/copyrightLogo-croped.png" alt="copyright logo">
         <div class="copyright-info">
             <p>2022 Creative Engineers Egypt.</p>
             <p>Some Rights Reserved.</p>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/f30ad4dcc9.js" crossorigin="anonymous"></script>
 </body>
 </html>
