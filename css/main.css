@@ -372,6 +372,44 @@ nav {
   display: none;
 }
 
+/* added menu */
+.hidden {
+  display: none !important;
+}
+
+.menu-decoration {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-decoration img {
+  float: right;
+  clear: both;
+  margin-top: 34px;
+  margin-bottom: 46px;
+  margin-right: 38px;
+}
+
+  .menu-decoration li {
+  float: left;
+  clear: both;
+  margin-left: 28px;
+  margin-bottom: 40px;
+}
+
+.menu-decoration li a {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
+  text-decoration: none;
+}
+
+/* added menu */
+
 @media (min-width: 768px) {
   .container {
     padding-left: 8%;
