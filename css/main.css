@@ -298,6 +298,14 @@ footer img {
   margin-right: 10%;
 }
 
+.menu-decoration img {
+  float: right;
+  clear: both;
+  margin-top: 34px;
+  margin-bottom: 46px;
+  margin-right: 38px;
+}
+
 .logo-info div img {
   width: 50vw;
 }
@@ -372,7 +380,6 @@ nav {
   display: none;
 }
 
-/* added menu */
 .hidden {
   display: none !important;
 }
@@ -383,15 +390,7 @@ nav {
   padding: 0;
 }
 
-.menu-decoration img {
-  float: right;
-  clear: both;
-  margin-top: 34px;
-  margin-bottom: 46px;
-  margin-right: 38px;
-}
-
-  .menu-decoration li {
+.menu-decoration li {
   float: left;
   clear: both;
   margin-left: 28px;
@@ -399,16 +398,14 @@ nav {
 }
 
 .menu-decoration li a {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  color: #3a4a42;
+  color: var(--black, black);
   text-decoration: none;
 }
-
-/* added menu */
 
 @media (min-width: 768px) {
   .container {
